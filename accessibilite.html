@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Déclaration d'accessibilité | BYA-X</title>
+  <meta name="robots" content="noindex, follow">
+  <style>
+    :root {
+      --bg: #0a0b10; --text: #f0f2f8; --muted: #a8b4d0; --gold: #d4b85c;
+      --surface: rgba(255,255,255,0.055); --border: rgba(255,255,255,0.12);
+    }
+    body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+    h1 { color: var(--gold); font-size: 1.8rem; margin-bottom: 8px; }
+    .subtitle { color: var(--muted); margin-bottom: 32px; }
+    h2 { color: var(--text); font-size: 1.2rem; margin-top: 32px; margin-bottom: 12px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    p, li { color: var(--muted); }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+    .status { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px; border-radius: 999px; background: rgba(52,211,153,0.10); border: 1px solid rgba(52,211,153,0.25); color: #34d399; font-size: 0.85rem; font-weight: 700; margin-bottom: 24px; }
+    a { color: var(--gold); }
+    .back { display: inline-flex; margin-top: 40px; padding: 12px 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; color: var(--text); text-decoration: none; font-weight: 500; }
+    .back:hover { background: rgba(255,255,255,0.08); }
+  </style>
+</head>
+<body>
+  <h1>Déclaration d'accessibilité</h1>
+  <p class="subtitle">BYA-X — Formulaire de candidature commerciale</p>
+
+  <div class="status">✓ Partiellement conforme — WCAG 2.2 AA</div>
+
+  <p>BYA-X s'engage à rendre son formulaire de candidature accessible conformément à l'article 9 de la directive européenne (UE) 2019/882 (European Accessibility Act) et au RGPD (UE) 2016/679.</p>
+
+  <h2>État de conformité</h2>
+  <p>Ce formulaire est <strong>partiellement conforme</strong> avec le référentiel WCAG 2.2 niveau AA en raison des non-conformités et dérogations énumérées ci-dessous.</p>
+
+  <h2>Contenus non accessibles</h2>
+  <ul>
+    <li><strong>Emojis décoratifs :</strong> Les icônes emoji (🎓, 🏹, etc.) sont accompagnées d'attributs <code>aria-hidden="true"</code> et ne sont pas lus par les lecteurs d'écran.</li>
+    <li><strong>Animations :</strong> Les animations d'entrée peuvent être désactivées via <code>prefers-reduced-motion</code>.</li>
+  </ul>
+
+  <h2>Technologies utilisées</h2>
+  <ul>
+    <li>HTML5, CSS3, JavaScript (ES2020+)</li>
+    <li>Fonts : DM Sans, DM Serif Display, DM Mono (Google Fonts)</li>
+    <li>API : Groq (LLM), Brevo (email)</li>
+    <li>Hébergement : Netlify</li>
+  </ul>
+
+  <h2>Agents utilisateurs testés</h2>
+  <ul>
+    <li>Chrome 120+, Firefox 121+, Safari 17+, Edge 120+</li>
+    <li>NVDA 2023.3, JAWS 2024, VoiceOver (iOS 17)</li>
+    <li>Android TalkBack 13+</li>
+  </ul>
+
+  <h2>Signalement et contact</h2>
+  <p>Si vous rencontrez un problème d'accessibilité empêchant l'accès à un contenu ou à un service, merci de nous contacter :</p>
+  <ul>
+    <li>Email : <a href="mailto:accessibilite@bya-x.com">accessibilite@bya-x.com</a></li>
+    <li>Réponse sous 48h ouvrés garantie</li>
+  </ul>
+
+  <h2>Voie de recours</h2>
+  <p>Si vous constatez un défaut d'accessibilité vous empêchant d'accéder à un contenu ou à un service, vous pouvez :</p>
+  <ul>
+    <li>Envoyer un message via le <a href="https://www.defenseurdesdroits.fr/office">Défenseur des droits</a> (France)</li>
+    <li>Contacter le <a href="https://www.unia.be">Centre pour l'égalité des chances et la lutte contre le racisme (UNIA)</a> (Belgique)</li>
+    <li>Contacter la déléguée à l'accessibilité de votre région</li>
+  </ul>
+
+  <h2>Date de mise à jour</h2>
+  <p>Cette déclaration a été établie le <strong>4 juin 2026</strong> et sera révisée trimestriellement.</p>
+
+  <a href="/" class="back">← Retour au formulaire</a>
+</body>
+</html>

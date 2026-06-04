@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.groq.com https://api.brevo.com;" />
+  <title>Opportunité commerciale indépendante à Liège | BYA-X</title>
+  <meta name="description" content="Teste ton profil en 2 minutes pour une opportunité commerciale indépendante à Liège. Flexibilité, commission, accompagnement et évolution possible." />
+  <meta name="robots" content="index, follow" />
+  <meta name="color-scheme" content="dark" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-base: #0a0b10; --bg-elevated: #11131a; --bg-hover: #181a24;
+      --surface-1: rgba(255,255,255,0.055); --surface-2: rgba(255,255,255,0.035); --surface-3: rgba(255,255,255,0.02);
+      --border-1: rgba(255,255,255,0.12); --border-2: rgba(255,255,255,0.07); --border-3: rgba(255,255,255,0.04);
+      --text-primary: #f0f2f8; --text-secondary: #a8b4d0; --text-tertiary: #7a8aaa; --text-disabled: #5a6a80;
+      --gold-400: #d4b85c; --gold-300: #e8d08a; --gold-500: #b89a3e;
+      --gold-100: rgba(212,184,92,0.10); --gold-200: rgba(212,184,92,0.18); --gold-border: rgba(212,184,92,0.35);
+      --slate-300: #cbd5e1; --slate-400: #94a3b8; --slate-500: #64748b; --slate-600: #475569;
+      --success: #34d399; --warning: #fbbf24; --error: #f87171;
+      --error-bg: rgba(248,113,113,0.08); --error-border: rgba(248,113,113,0.40); --info: #60a5fa;
+      --focus-ring: #d4b85c; --focus-shadow: 0 0 0 3px rgba(212,184,92,0.25);
+      --radius-sm: 8px; --radius-md: 14px; --radius-lg: 20px; --radius-xl: 28px;
+      --shadow-card: 0 24px 64px rgba(0,0,0,0.50); --shadow-dialog: 0 32px 80px rgba(0,0,0,0.70);
+      --font-sans: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-serif: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+      --font-mono: 'DM Mono', 'SF Mono', 'Courier New', monospace;
+      --space-xs: 4px; --space-sm: 8px; --space-md: 16px; --space-lg: 24px; --space-xl: 32px; --space-2xl: 48px; --space-3xl: 64px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; color-scheme: dark; }
+    body { font-family: var(--font-sans); font-size: 1rem; line-height: 1.6; color: var(--text-secondary); background: var(--bg-base); min-height: 100vh; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    .skip-link { position: absolute; top: -40px; left: 0; background: var(--gold-400); color: var(--bg-base); padding: 8px 16px; z-index: 100; font-weight: 700; font-size: 0.875rem; border-radius: 0 0 var(--radius-md) 0; transition: top 0.2s; text-decoration: none; }
+    .skip-link:focus { top: 0; outline: 2px solid var(--text-primary); outline-offset: 2px; }
+    body::before { content: ''; position: fixed; inset: 0; background: radial-gradient(ellipse 80% 50% at 20% -10%, rgba(212,184,92,0.10), transparent), radial-gradient(ellipse 60% 40% at 85% 90%, rgba(59,130,246,0.06), transparent), radial-gradient(ellipse 100% 70% at 50% 50%, transparent, var(--bg-base)); pointer-events: none; z-index: 0; }
+    body::after { content: ''; position: fixed; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E"); opacity: 0.5; pointer-events: none; z-index: 0; }
+    .wrap { position: relative; z-index: 1; width: 100%; max-width: 1160px; margin: 0 auto; padding: var(--space-xl) var(--space-lg) var(--space-3xl); }
+    .topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--space-2xl); opacity: 0; animation: fadeUp 0.6s ease forwards; }
+    .brand { font-family: var(--font-serif); font-size: 1.3rem; letter-spacing: 0.02em; color: var(--gold-300); }
+    .brand span { color: var(--text-tertiary); font-family: var(--font-sans); font-size: 0.82rem; font-weight: 400; display: block; letter-spacing: 0.05em; margin-top: 2px; }
+    .location-pill { display: inline-flex; align-items: center; gap: 7px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--border-1); background: var(--surface-2); font-size: 0.82rem; color: var(--text-tertiary); letter-spacing: 0.04em; }
+    .location-pill::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--gold-400); box-shadow: 0 0 8px var(--gold-400); animation: pulse 2s ease infinite; }
+    .hero { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 20px; margin-bottom: 20px; }
+    .card { background: var(--surface-1); border: 1px solid var(--border-1); border-radius: var(--radius-lg); box-shadow: var(--shadow-card); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
+    .heroCard { padding: 40px 36px; opacity: 0; animation: fadeUp 0.7s 0.1s ease forwards; }
+    .infoCard { padding: 30px 28px; opacity: 0; animation: fadeUp 0.7s 0.2s ease forwards; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px; border-radius: 999px; border: 1px solid var(--gold-border); background: var(--gold-100); color: var(--gold-300); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 22px; }
+    h1, h2, h3, h4 { font-family: var(--font-serif); color: var(--text-primary); line-height: 1.1; letter-spacing: -0.02em; }
+    h1 { font-size: clamp(2rem, 4.5vw, 3.4rem); margin-bottom: 18px; }
+    h1 em { font-style: italic; color: var(--gold-300); }
+    h2 { font-size: 1.3rem; margin-bottom: 16px; }
+    h3 { font-size: 1.1rem; margin-bottom: 12px; }
+    .heroCard > p { color: var(--text-secondary); font-size: 1.02rem; line-height: 1.8; max-width: 58ch; font-weight: 300; }
+    .benefits { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 26px; }
+    .benefit { padding: 16px; border: 1px solid var(--border-2); border-radius: var(--radius-md); background: var(--surface-2); transition: border-color 0.2s, background 0.2s, transform 0.2s; }
+    .benefit:hover { border-color: var(--gold-border); background: var(--gold-100); transform: translateY(-2px); }
+    .benefit strong { display: flex; align-items: center; gap: 7px; color: var(--text-primary); font-weight: 700; font-size: 0.93rem; margin-bottom: 5px; }
+    .benefit strong::before { content: attr(data-icon); font-size: 1rem; }
+    .benefit span { color: var(--text-secondary); font-size: 0.88rem; line-height: 1.55; font-weight: 300; }
+    .ctaRow { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .ctaBtn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 14px 22px; border-radius: var(--radius-md); font-weight: 700; font-size: 0.95rem; cursor: pointer; text-decoration: none; border: 0; transition: transform 0.18s, box-shadow 0.18s, opacity 0.2s, background 0.2s; letter-spacing: 0.01em; position: relative; overflow: hidden; }
+    .ctaBtn:hover { transform: translateY(-2px); }
+    .ctaBtn:active { transform: translateY(0); }
+    .ctaBtn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; box-shadow: var(--focus-shadow); }
+    .primary { background: linear-gradient(135deg, var(--gold-400) 0%, var(--gold-500) 100%); color: var(--bg-base); box-shadow: 0 8px 28px rgba(212,184,92,0.30); min-width: 200px; }
+    .primary:hover { box-shadow: 0 12px 36px rgba(212,184,92,0.45); background: linear-gradient(135deg, var(--gold-300) 0%, var(--gold-400) 100%); }
+    .ghost { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border-1); }
+    .ghost:hover { background: var(--surface-2); border-color: var(--border-2); }
+    .stats { display: grid; gap: 10px; }
+    .stat { display: flex; align-items: flex-start; gap: 12px; padding: 14px; border-radius: var(--radius-md); background: var(--surface-2); border: 1px solid var(--border-2); transition: background 0.2s, border-color 0.2s; }
+    .stat:hover { background: var(--surface-3); border-color: var(--border-1); }
+    .stat-icon { flex-shrink: 0; width: 36px; height: 36px; border-radius: 10px; background: var(--gold-100); border: 1px solid var(--gold-border); display: grid; place-items: center; font-size: 1rem; }
+    .stat b { display: block; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 3px; }
+    .stat span { color: var(--text-secondary); font-size: 0.83rem; line-height: 1.5; font-weight: 300; }
+    .tip { margin-top: 14px; padding: 14px 16px; border-radius: var(--radius-md); background: var(--gold-100); border: 1px solid var(--gold-border); color: var(--gold-300); font-size: 0.87rem; line-height: 1.65; }
+    .footerNote { margin-top: 14px; color: var(--text-tertiary); font-size: 0.83rem; line-height: 1.6; }
+    .notice { margin: 20px 0; padding: 16px 20px; border: 1px solid var(--border-1); border-left: 4px solid var(--warning); border-radius: var(--radius-lg); background: rgba(251,191,36,0.06); color: var(--warning); font-size: 0.9rem; line-height: 1.7; opacity: 0; animation: fadeUp 0.7s 0.35s ease forwards; }
+    .notice strong { color: var(--text-primary); font-weight: 700; }
+    .mainGrid { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 20px; align-items: start; opacity: 0; animation: fadeUp 0.7s 0.4s ease forwards; }
+    .formCard { padding: 32px 30px; }
+    .sideCard { padding: 28px; position: sticky; top: 20px; }
+    .sectionTitle { font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-primary); margin-bottom: 8px; }
+    .sectionText { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; margin-bottom: 22px; font-weight: 300; }
+    .fieldGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+    .field { display: flex; flex-direction: column; gap: 7px; }
+    .full { grid-column: 1 / -1; }
+    label { font-size: 0.82rem; font-weight: 700; color: var(--text-secondary); letter-spacing: 0.04em; text-transform: uppercase; }
+    input, select, textarea { width: 100%; border: 1px solid var(--border-1); background: var(--bg-base); color: var(--text-primary); border-radius: var(--radius-md); padding: 13px 15px; font-family: var(--font-sans); font-size: 0.95rem; outline: none; transition: border-color 0.2s, background 0.2s, box-shadow 0.2s; appearance: none; }
+    input[type="tel"], input[type="date"] { font-family: var(--font-mono); font-variant-numeric: tabular-nums; letter-spacing: 0.02em; }
+    input::placeholder { color: var(--text-tertiary); opacity: 1; }
+    select { cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%237a8aaa' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 40px; }
+    select option { background: var(--bg-elevated); color: var(--text-primary); }
+    input:focus, select:focus, textarea:focus { border-color: var(--gold-400); background: var(--bg-elevated); box-shadow: var(--focus-shadow); }
+    input.invalid, select.invalid, textarea.invalid { border-color: var(--error); box-shadow: 0 0 0 3px rgba(248,113,113,0.15); }
+    input.valid, select.valid, textarea.valid { border-color: var(--success); }
+    .field-hint { font-size: 0.78rem; color: var(--text-tertiary); margin-top: 2px; line-height: 1.4; }
+    .field-error { font-size: 0.78rem; color: var(--error); margin-top: 4px; display: none; font-weight: 500; }
+    .field-error.visible { display: block; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    .group { margin-top: 18px; padding: 18px; border: 1px solid var(--border-1); border-radius: var(--radius-md); background: var(--surface-2); }
+    .groupLabel { font-size: 0.9rem; font-weight: 700; color: var(--text-primary); margin-bottom: 13px; line-height: 1.5; }
+    .options { display: grid; gap: 8px; }
+    .opt { display: flex; align-items: flex-start; gap: 11px; padding: 13px 15px; border-radius: var(--radius-sm); background: transparent; border: 1px solid var(--border-2); cursor: pointer; line-height: 1.5; transition: background 0.18s, border-color 0.18s, transform 0.15s; font-size: 0.9rem; color: var(--text-secondary); }
+    .opt:hover { background: var(--surface-3); border-color: var(--border-1); transform: translateX(2px); }
+    .opt.selected { background: var(--gold-100); border-color: var(--gold-border); color: var(--text-primary); }
+    .opt input[type="radio"], .opt input[type="checkbox"] { position: absolute; opacity: 0; width: 0; height: 0; }
+    .opt-check { flex-shrink: 0; width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--text-tertiary); margin-top: 1px; display: grid; place-items: center; transition: border-color 0.18s, background 0.18s; }
+    .opt-check.checkbox { border-radius: 4px; }
+    .opt.selected .opt-check { border-color: var(--gold-400); background: var(--gold-400); }
+    .opt.selected .opt-check::after { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--bg-base); }
+    .opt.selected .opt-check.checkbox::after { content: '✓'; width: auto; height: auto; border-radius: 0; background: transparent; color: var(--bg-base); font-size: 11px; font-weight: 900; }
+    .group.invalid-group .groupLabel::after { content: ' — Sélection requise'; font-size: 0.78rem; font-weight: 400; color: var(--error); margin-left: 6px; }
+    .group.invalid-group { border-color: var(--error-border); background: var(--error-bg); }
+    .consent-box { margin-top: 18px; padding: 16px; border: 1px solid var(--border-1); border-radius: var(--radius-md); background: var(--surface-2); }
+    .consent-box .opt { border: none; padding: 0; background: transparent; }
+    .consent-box .opt:hover { transform: none; background: transparent; }
+    .consent-text { font-size: 0.85rem; line-height: 1.6; color: var(--text-secondary); }
+    .consent-text a { color: var(--gold-400); text-decoration: underline; text-underline-offset: 2px; }
+    .consent-text a:hover { color: var(--gold-300); }
+    .profile-strength { margin-top: 16px; padding: 14px 16px; border-radius: var(--radius-md); background: var(--surface-2); border: 1px solid var(--border-2); transition: opacity 0.3s; }
+    .profile-strength.hidden { opacity: 0; pointer-events: none; }
+    .strength-header { display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 8px; color: var(--text-tertiary); }
+    .strength-bar { height: 6px; background: var(--border-2); border-radius: 999px; overflow: hidden; }
+    .strength-fill { height: 100%; border-radius: 999px; transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s; width: 0%; }
+    .strength-weak { background: linear-gradient(90deg, var(--error), var(--warning)); }
+    .strength-medium { background: linear-gradient(90deg, var(--warning), var(--success)); }
+    .strength-strong { background: linear-gradient(90deg, var(--success), #22d3ee); }
+    .actions { display: flex; gap: 12px; margin-top: 22px; flex-wrap: wrap; }
+    .submitBtn { background: linear-gradient(135deg, var(--gold-400) 0%, var(--gold-500) 100%); color: var(--bg-base); font-weight: 900; font-size: 0.97rem; box-shadow: 0 8px 28px rgba(212,184,92,0.25); min-width: 230px; letter-spacing: 0.01em; }
+    .submitBtn:hover { box-shadow: 0 12px 36px rgba(212,184,92,0.40); background: linear-gradient(135deg, var(--gold-300) 0%, var(--gold-400) 100%); }
+    .submitBtn:disabled { opacity: 0.55; transform: none !important; cursor: not-allowed; box-shadow: none; }
+    .resetBtn { background: var(--surface-1); color: var(--text-primary); border: 1px solid var(--border-1); }
+    .resetBtn:hover { background: var(--surface-2); }
+    .feedback { margin-top: 14px; min-height: 22px; font-size: 0.9rem; }
+    .feedback.error { color: var(--error); font-weight: 500; }
+    .feedback.success { color: var(--success); font-weight: 500; }
+    .feedback.info { color: var(--info); font-weight: 500; }
+    .sideCard h2 { font-family: var(--font-serif); font-size: 1.3rem; color: var(--text-primary); margin-bottom: 16px; }
+    .sideList { list-style: none; display: grid; gap: 9px; }
+    .sideList li { display: flex; align-items: flex-start; gap: 10px; color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; font-weight: 300; }
+    .sideList li::before { content: '→'; color: var(--gold-400); flex-shrink: 0; margin-top: 1px; font-weight: 700; }
+    .divider { border: none; border-top: 1px solid var(--border-1); margin: 18px 0; }
+    .progressWrap { margin-bottom: 20px; }
+    .progressLabel { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text-tertiary); margin-bottom: 7px; }
+    .progressBar { height: 4px; background: var(--border-2); border-radius: 999px; overflow: hidden; }
+    .progressFill { height: 100%; background: linear-gradient(90deg, var(--gold-400), var(--gold-300)); border-radius: 999px; width: 0%; transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+    dialog { background: var(--bg-elevated); border: 1px solid var(--border-1); border-radius: var(--radius-lg); box-shadow: var(--shadow-dialog); color: var(--text-secondary); max-width: 480px; width: 90%; padding: 0; }
+    dialog::backdrop { background: rgba(0,0,0,0.70); backdrop-filter: blur(4px); }
+    .dialog-header { padding: 24px 28px 0; }
+    .dialog-header h3 { font-family: var(--font-serif); font-size: 1.4rem; color: var(--text-primary); margin-bottom: 8px; }
+    .dialog-body { padding: 0 28px 24px; font-size: 0.95rem; line-height: 1.7; }
+    .dialog-body p { margin-bottom: 12px; }
+    .dialog-body .dialog-summary { background: var(--surface-2); border: 1px solid var(--border-2); border-radius: var(--radius-sm); padding: 12px 16px; font-size: 0.85rem; color: var(--text-tertiary); }
+    .dialog-actions { display: flex; gap: 12px; padding: 0 28px 24px; }
+    .dialog-actions .ctaBtn { flex: 1; min-width: 0; }
+    #thanksSection { margin-top: 20px; text-align: center; padding: 56px 32px; }
+    .thanksBadge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 999px; background: rgba(52,211,153,0.10); border: 1px solid rgba(52,211,153,0.25); color: var(--success); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 20px; }
+    #thanksSection h2 { font-family: var(--font-serif); font-size: 2.2rem; color: var(--text-primary); margin-bottom: 12px; }
+    #thanksSection p { color: var(--text-secondary); font-size: 1rem; line-height: 1.8; max-width: 600px; margin: 0 auto; font-weight: 300; }
+    .a11y-footer { margin-top: 40px; padding: 20px 0; border-top: 1px solid var(--border-2); text-align: center; font-size: 0.82rem; color: var(--text-tertiary); }
+    .a11y-footer a { color: var(--slate-400); text-decoration: underline; text-underline-offset: 2px; transition: color 0.2s; }
+    .a11y-footer a:hover { color: var(--gold-400); }
+    .a11y-footer .separator { margin: 0 8px; color: var(--border-1); }
+    .autosave-indicator { display: flex; align-items: center; gap: 6px; font-size: 0.75rem; color: var(--text-tertiary); margin-top: 8px; opacity: 0; transition: opacity 0.3s; }
+    .autosave-indicator.visible { opacity: 1; }
+    .autosave-indicator .dot { width: 5px; height: 5px; border-radius: 50%; background: var(--success); animation: pulse-dot 2s ease infinite; }
+    .hidden { display: none !important; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes pulse { 0%, 100% { box-shadow: 0 0 8px var(--gold-400); } 50% { box-shadow: 0 0 16px var(--gold-400), 0 0 24px rgba(212,184,92,0.35); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .spinner { display: inline-block; width: 16px; height: 16px; border: 2px solid rgba(10,11,16,0.3); border-top-color: var(--bg-base); border-radius: 50%; animation: spin 0.7s linear infinite; vertical-align: middle; margin-right: 6px; }
+    @media (max-width: 960px) { .hero, .mainGrid { grid-template-columns: 1fr; } .sideCard { position: static; } }
+    @media (max-width: 640px) { .wrap { padding: 20px 14px 56px; } .heroCard { padding: 24px 20px; } .infoCard { padding: 22px 18px; } h1 { font-size: 1.75rem; letter-spacing: -0.02em; line-height: 1.1; } .heroCard > p { font-size: 0.95rem; } .benefits { grid-template-columns: 1fr; gap: 8px; margin-top: 20px; } .benefit { padding: 13px 14px; } .ctaRow { flex-direction: column; gap: 10px; margin-top: 22px; } .ctaBtn { width: 100%; min-width: 0; padding: 16px 20px; font-size: 1rem; border-radius: var(--radius-md); } .stat { padding: 12px; } .stat-icon { width: 32px; height: 32px; font-size: 0.88rem; } .notice { font-size: 0.86rem; padding: 14px 16px; } .formCard { padding: 22px 18px; } .fieldGrid { grid-template-columns: 1fr; gap: 12px; } input, select { font-size: 16px; padding: 15px 14px; border-radius: var(--radius-md); } select { padding-right: 38px; } .opt { padding: 15px 14px; font-size: 0.92rem; } .opt-check { width: 20px; height: 20px; } .group { padding: 16px 14px; margin-top: 16px; } .groupLabel { font-size: 0.88rem; } .actions { flex-direction: column; gap: 10px; margin-top: 18px; } .submitBtn, .resetBtn { width: 100%; min-width: 0; padding: 17px 20px; font-size: 1rem; } .sideCard { padding: 20px 18px; } .sideList li { font-size: 0.88rem; } #thanksSection { padding: 40px 20px; } #thanksSection h2 { font-size: 1.7rem; } dialog { width: 95%; margin: auto; } .dialog-header, .dialog-body, .dialog-actions { padding-left: 20px; padding-right: 20px; } }
+    @media (max-width: 380px) { .wrap { padding: 16px 12px 48px; } h1 { font-size: 1.55rem; } .heroCard { padding: 20px 16px; } .formCard { padding: 18px 14px; } }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } html { scroll-behavior: auto; } }
+    @media (prefers-contrast: more) { .card { border-width: 2px; } input, select { border-width: 2px; } .opt { border-width: 2px; } .ctaBtn { border-width: 2px; } dialog { border-width: 3px; } }
+  </style>
+</head>
+<body>
+  <a href="#formSection" class="skip-link">Aller au formulaire</a>
+
+  <div class="wrap">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="heroCard card">
+        <div class="eyebrow">Statut indépendant</div>
+        <h1 id="hero-heading">Tu veux une activité <em>flexible</em>,<br>où tes efforts se voient vraiment&nbsp;?</h1>
+        <p>Je ne cherche pas un employé, mais un vrai partenaire. Si tu veux une activité commerciale indépendante avec de l'accompagnement, de l'autonomie et une rémunération qui dépend directement de ton implication, tu es au bon endroit.</p>
+        <div class="benefits">
+          <div class="benefit"><strong data-icon="⚡">Flexibilité totale</strong><span>Tu t'organises comme tu veux.</span></div>
+          <div class="benefit"><strong data-icon="📈">100 % au mérite</strong><span>Pas de plafond — c'est toi qui décides.</span></div>
+          <div class="benefit"><strong data-icon="🎯">Accompagnement concret</strong><span>Tu apprends à convaincre avec méthode.</span></div>
+          <div class="benefit"><strong data-icon="🏗️">Évolution possible</strong><span>À terme, tu peux bâtir ta propre équipe.</span></div>
+        </div>
+        <div class="ctaRow">
+          <a class="ctaBtn primary" href="#formSection">Tester mon profil</a>
+          <a class="ctaBtn ghost" href="#infoSection">Voir si ça me correspond</a>
+        </div>
+      </div>
+
+      <aside class="infoCard card" id="infoSection" aria-labelledby="info-heading">
+        <h2 id="info-heading">Ce qu'on recherche</h2>
+        <div class="stats">
+          <div class="stat"><div class="stat-icon" aria-hidden="true">🎓</div><div><b>CESS minimum</b><span>Le diplôme compte, mais le potentiel compte autant.</span></div></div>
+          <div class="stat"><div class="stat-icon" aria-hidden="true">🏹</div><div><b>Esprit chasseur</b><span>Curiosité, téléphone, persévérance, envie d'aller chercher le oui.</span></div></div>
+          <div class="stat"><div class="stat-icon" aria-hidden="true">🌱</div><div><b>Envie de construire</b><span>Pas juste vendre : apprendre, progresser, évoluer.</span></div></div>
+        </div>
+        <div class="tip">Tu n'as pas besoin d'un parcours parfait. Si tu es à l'aise avec le contact humain et que tu veux te dépasser, le projet peut te convenir.</div>
+        <p class="footerNote">Le formulaire ci-dessous prend environ 2 minutes et permet d'évaluer si le projet a du sens pour toi.</p>
+      </aside>
+    </section>
+
+    <div class="notice" role="note" aria-label="Information importante">
+      <strong>Important :</strong> On cherche surtout des personnes sincères, motivées et capables de tenir une cadence commerciale. Le plus important : avoir le CESS, aimer le challenge et ne pas avoir froid aux yeux.
+    </div>
+
+    <div class="mainGrid">
+      <section class="formCard card" id="formSection" aria-labelledby="form-heading">
+        <h2 class="sectionTitle" id="form-heading">Parle-nous de toi</h2>
+        <p class="sectionText">Réponds simplement. Plus c'est honnête, plus on pourra voir si le projet correspond à ton profil.</p>
+
+        <div class="progressWrap" aria-label="Progression du formulaire" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressBar">
+          <div class="progressLabel"><span>Progression</span><span id="progressPct">0 %</span></div>
+          <div class="progressBar"><div class="progressFill" id="progressFill"></div></div>
+        </div>
+
+        <div class="autosave-indicator" id="autosaveIndicator" aria-live="polite">
+          <div class="dot"></div><span>Brouillon sauvegardé</span>
+        </div>
+
+        <form id="candidateForm" novalidate aria-describedby="form-instructions">
+          <p id="form-instructions" class="sr-only">Tous les champs marqués comme requis doivent être complétés. Les questions à choix multiples nécessitent une sélection.</p>
+
+          <div class="fieldGrid">
+            <div class="field">
+              <label for="firstName">Prénom <span aria-label="requis">*</span></label>
+              <input id="firstName" required autocomplete="given-name" placeholder="Ton prénom" aria-required="true" />
+              <span class="field-error" id="error-firstName">Veuillez entrer votre prénom.</span>
+            </div>
+            <div class="field">
+              <label for="lastName">Nom <span aria-label="requis">*</span></label>
+              <input id="lastName" required autocomplete="family-name" placeholder="Ton nom" aria-required="true" />
+              <span class="field-error" id="error-lastName">Veuillez entrer votre nom.</span>
+            </div>
+            <div class="field">
+              <label for="birthDate">Date de naissance <span aria-label="requis">*</span></label>
+              <input id="birthDate" type="date" required aria-required="true" />
+              <span class="field-hint">Format : JJ/MM/AAAA</span>
+              <span class="field-error" id="error-birthDate">Veuillez entrer une date de naissance valide (16-75 ans).</span>
+            </div>
+            <div class="field">
+              <label for="city">Ville <span aria-label="requis">*</span></label>
+              <input id="city" required autocomplete="address-level2" placeholder="Ta ville" aria-required="true" />
+              <span class="field-error" id="error-city">Veuillez entrer votre ville.</span>
+            </div>
+            <div class="field">
+              <label for="gsm">GSM <span aria-label="requis">*</span></label>
+              <input id="gsm" type="tel" required autocomplete="tel" placeholder="+32 4XX XX XX XX" aria-required="true" aria-describedby="hint-gsm" />
+              <span class="field-hint" id="hint-gsm">Format belge recommandé</span>
+              <span class="field-error" id="error-gsm">Veuillez entrer un numéro de téléphone valide.</span>
+            </div>
+            <div class="field">
+              <label for="email">Email <span aria-label="requis">*</span></label>
+              <input id="email" type="email" required autocomplete="email" placeholder="ton@email.com" aria-required="true" />
+              <span class="field-error" id="error-email">Veuillez entrer une adresse email valide.</span>
+            </div>
+            <div class="field full">
+              <label for="education">Diplôme le plus élevé <span aria-label="requis">*</span></label>
+              <select id="education" required aria-required="true">
+                <option value="">Sélectionner…</option><option>Inférieur au CESS</option><option>CESS</option><option>Bachelier ou plus</option>
+              </select>
+              <span class="field-error" id="error-education">Veuillez sélectionner votre niveau d'études.</span>
+            </div>
+            <div class="field full">
+              <label for="status">Motivation principale <span aria-label="requis">*</span></label>
+              <select id="status" required aria-required="true">
+                <option value="">Sélectionner…</option><option>Je cherche d'abord la sécurité</option><option>Je suis motivé(e) par la commission</option>
+              </select>
+              <span class="field-error" id="error-status">Veuillez sélectionner votre motivation principale.</span>
+            </div>
+            <div class="field full">
+              <label for="currentStatus">Situation professionnelle actuelle <span aria-label="requis">*</span></label>
+              <select id="currentStatus" required aria-required="true">
+                <option value="">Sélectionner…</option><option>Sans emploi</option><option>Salarié(e) en poste</option><option>Indépendant(e) actif(ve)</option><option>Étudiant(e)</option><option>En transition / reconversion</option>
+              </select>
+              <span class="field-error" id="error-currentStatus">Veuillez sélectionner votre situation actuelle.</span>
+            </div>
+            <div class="field full">
+              <label for="availability">Disponibilité hebdomadaire <span aria-label="requis">*</span></label>
+              <select id="availability" required aria-required="true">
+                <option value="">Sélectionner…</option><option>Moins de 5h par semaine</option><option>5 à 15h par semaine</option><option>15 à 25h par semaine</option><option>Plus de 25h (quasi temps plein)</option>
+              </select>
+              <span class="field-error" id="error-availability">Veuillez sélectionner votre disponibilité.</span>
+            </div>
+            <div class="field full">
+              <label for="incomeTarget">Revenu complémentaire visé (6 mois) <span aria-label="requis">*</span></label>
+              <select id="incomeTarget" required aria-required="true">
+                <option value="">Sélectionner…</option><option>Moins de 300 € / mois</option><option>300 à 700 € / mois</option><option>700 à 1 500 € / mois</option><option>Plus de 1 500 € / mois (objectif principal)</option>
+              </select>
+              <span class="field-error" id="error-incomeTarget">Veuillez sélectionner votre objectif de revenu.</span>
+            </div>
+          </div>
+
+          <div class="group" id="group-resilience" role="radiogroup" aria-labelledby="label-resilience">
+            <div class="groupLabel" id="label-resilience">Quand tu prends beaucoup de "non" au téléphone, tu fais quoi&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="resilience" data-value="Je me décourage vite"><input type="radio" name="resilience" value="Je me décourage vite" required /><div class="opt-check"></div><span>Je me décourage vite</span></label>
+              <label class="opt" data-group="resilience" data-value="Je fais une pause et j'analyse"><input type="radio" name="resilience" value="Je fais une pause et j'analyse" required /><div class="opt-check"></div><span>Je fais une pause et j'analyse</span></label>
+              <label class="opt" data-group="resilience" data-value="Je continue avec constance"><input type="radio" name="resilience" value="Je continue avec constance" required /><div class="opt-check"></div><span>Je continue avec constance et je vais chercher le prochain oui</span></label>
+            </div>
+          </div>
+
+          <div class="group" id="group-ambition" role="radiogroup" aria-labelledby="label-ambition">
+            <div class="groupLabel" id="label-ambition">Dans 2 à 3 ans, tu veux être où&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="ambition" data-value="Cherche surtout la stabilité"><input type="radio" name="ambition" value="Cherche surtout la stabilité" required /><div class="opt-check"></div><span>Stabilisé(e) dans un cadre rassurant</span></label>
+              <label class="opt" data-group="ambition" data-value="Vise une forte performance commerciale"><input type="radio" name="ambition" value="Vise une forte performance commerciale" required /><div class="opt-check"></div><span>Très performant(e) commercialement</span></label>
+              <label class="opt" data-group="ambition" data-value="Évoluer vers un rôle d'encadrement"><input type="radio" name="ambition" value="Évoluer vers un rôle d'encadrement" required /><div class="opt-check"></div><span>En évolution vers un rôle d'encadrement</span></label>
+            </div>
+          </div>
+
+          <div class="group" id="group-coldCalling" role="radiogroup" aria-labelledby="label-coldCalling">
+            <div class="groupLabel" id="label-coldCalling">Et le téléphone, tu t'y sens comment&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="coldCalling" data-value="Aucune expérience"><input type="radio" name="coldCalling" value="Aucune expérience" required /><div class="opt-check"></div><span>Je n'ai pas d'expérience</span></label>
+              <label class="opt" data-group="coldCalling" data-value="Un peu, sans affinité particulière"><input type="radio" name="coldCalling" value="Un peu, sans affinité particulière" required /><div class="opt-check"></div><span>J'ai déjà essayé un peu</span></label>
+              <label class="opt" data-group="coldCalling" data-value="Très à l'aise"><input type="radio" name="coldCalling" value="Très à l'aise" required /><div class="opt-check"></div><span>Je suis très à l'aise avec la prospection téléphonique</span></label>
+            </div>
+          </div>
+
+          <div class="group" id="group-independence" role="radiogroup" aria-labelledby="label-independence">
+            <div class="groupLabel" id="label-independence">As-tu déjà travaillé en tant qu'indépendant(e)&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="independence" data-value="Jamais"><input type="radio" name="independence" value="Jamais" required /><div class="opt-check"></div><span>Non, jamais — c'est une nouveauté pour moi</span></label>
+              <label class="opt" data-group="independence" data-value="Oui, dans le passé"><input type="radio" name="independence" value="Oui, dans le passé" required /><div class="opt-check"></div><span>Oui, j'ai déjà eu une expérience en indépendant(e)</span></label>
+              <label class="opt" data-group="independence" data-value="Oui, encore aujourd'hui"><input type="radio" name="independence" value="Oui, encore aujourd'hui" required /><div class="opt-check"></div><span>Oui, je suis actuellement actif(ve) en tant qu'indépendant(e)</span></label>
+            </div>
+          </div>
+
+          <div class="group" id="group-commercialExp" role="radiogroup" aria-labelledby="label-commercialExp">
+            <div class="groupLabel" id="label-commercialExp">As-tu déjà eu une fonction commerciale ou de relation client&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="commercialExp" data-value="Non, jamais"><input type="radio" name="commercialExp" value="Non, jamais" required /><div class="opt-check"></div><span>Non, c'est un domaine que je découvre</span></label>
+              <label class="opt" data-group="commercialExp" data-value="Oui, occasionnellement"><input type="radio" name="commercialExp" value="Oui, occasionnellement" required /><div class="opt-check"></div><span>Oui, de façon occasionnelle ou partielle</span></label>
+              <label class="opt" data-group="commercialExp" data-value="Oui, c'est mon cœur de métier"><input type="radio" name="commercialExp" value="Oui, c'est mon cœur de métier" required /><div class="opt-check"></div><span>Oui, c'est au cœur de mon parcours professionnel</span></label>
+            </div>
+          </div>
+
+          <div class="group" id="group-network" role="radiogroup" aria-labelledby="label-network">
+            <div class="groupLabel" id="label-network">Comment décrirais-tu ton réseau dans ta région&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="network" data-value="Limité"><input type="radio" name="network" value="Limité" required /><div class="opt-check"></div><span>Plutôt limité — je suis assez discret(e)</span></label>
+              <label class="opt" data-group="network" data-value="Moyen"><input type="radio" name="network" value="Moyen" required /><div class="opt-check"></div><span>Moyen — j'ai quelques contacts utiles</span></label>
+              <label class="opt" data-group="network" data-value="Large"><input type="radio" name="network" value="Large" required /><div class="opt-check"></div><span>Large — je connais beaucoup de monde et j'entretiens mes relations</span></label>
+            </div>
+          </div>
+
+          <div class="group" id="group-mainBlocker" role="radiogroup" aria-labelledby="label-mainBlocker">
+            <div class="groupLabel" id="label-mainBlocker">Qu'est-ce qui te freinerait le plus dans cette activité&nbsp;?</div>
+            <div class="options">
+              <label class="opt" data-group="mainBlocker" data-value="Parler à des inconnus"><input type="radio" name="mainBlocker" value="Parler à des inconnus" required /><div class="opt-check"></div><span>Aborder des personnes que je ne connais pas</span></label>
+              <label class="opt" data-group="mainBlocker" data-value="Gérer les refus"><input type="radio" name="mainBlocker" value="Gérer les refus" required /><div class="opt-check"></div><span>Encaisser les refus répétés</span></label>
+              <label class="opt" data-group="mainBlocker" data-value="L'aspect administratif"><input type="radio" name="mainBlocker" value="L'aspect administratif" required /><div class="opt-check"></div><span>Gérer l'administratif lié au statut indépendant</span></label>
+              <label class="opt" data-group="mainBlocker" data-value="Rien, je suis prêt(e)"><input type="radio" name="mainBlocker" value="Rien, je suis prêt(e)" required /><div class="opt-check"></div><span>Rien de particulier — je suis prêt(e) à me lancer</span></label>
+            </div>
+          </div>
+
+          <div class="profile-strength hidden" id="profileStrength" aria-live="polite" aria-atomic="true">
+            <div class="strength-header"><span>Alignement avec le poste</span><span id="strengthLabel">Analyse en cours…</span></div>
+            <div class="strength-bar"><div class="strength-fill" id="strengthFill"></div></div>
+          </div>
+
+          <div class="consent-box" id="consentBox">
+            <label class="opt" data-group="consent" data-value="accepted" id="consentLabel">
+              <input type="checkbox" id="consent" name="consent" value="accepted" required aria-required="true" />
+              <div class="opt-check checkbox"></div>
+              <span class="consent-text">
+                J'accepte que mes données personnelles soient traitées dans le cadre de l'évaluation de ma candidature.
+                J'ai pris connaissance de la <a href="/confidentialite" target="_blank" rel="noopener noreferrer">politique de confidentialité</a>
+                et je comprends que je peux exercer mes droits (accès, rectification, effacement) en contactant
+                <a href="mailto:privacy@bya-x.com">privacy@bya-x.com</a>.
+                <span class="field-error" id="error-consent" style="display: block; margin-top: 6px;">Veuillez accepter le traitement de vos données pour continuer.</span>
+              </span>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button type="submit" id="submitBtn" class="ctaBtn submitBtn">Envoyer ma candidature</button>
+            <button type="button" id="resetBtn" class="ctaBtn resetBtn">Réinitialiser</button>
+          </div>
+          <div class="feedback" id="feedback" role="alert" aria-live="polite"></div>
+        </form>
+      </section>
+
+      <aside class="sideCard card" aria-labelledby="side-heading">
+        <h2 id="side-heading">Comment ça se passe ?</h2>
+        <ul class="sideList">
+          <li>Tu remplis le formulaire en 2 minutes.</li>
+          <li>On analyse ton profil avec soin.</li>
+          <li>Si ça matche, on te recontacte rapidement.</li>
+          <li>On échange pour voir si le projet te correspond vraiment.</li>
+        </ul>
+        <hr class="divider" />
+        <div class="tip">Pas de promesse creuse : si ton profil ne correspond pas, on te le dit franchement. Si ça colle, on avance ensemble.</div>
+      </aside>
+    </div>
+
+    <section class="card thanks hidden" id="thanksSection" style="margin-top:20px;" aria-labelledby="thanks-heading">
+      <div class="thanksBadge" role="status">✓ Reçu</div>
+      <h2 id="thanks-heading">Ta candidature est bien envoyée</h2>
+      <p>Merci pour ton temps. Si ton profil correspond à ce qu'on recherche, on te recontactera rapidement pour la suite.</p>
+    </section>
+
+    <footer class="a11y-footer">
+      <a href="/accessibilite">Déclaration d'accessibilité</a>
+      <span class="separator">|</span>
+      <a href="mailto:accessibilite@bya-x.com?subject=Signalement%20accessibilité">Signaler un problème d'accessibilité</a>
+      <span class="separator">|</span>
+      <span>Conforme WCAG 2.2 AA — EN 301 549 v4.1.1</span>
+    </footer>
+  </div>
+
+  <!-- Confirmation Dialog -->
+  <dialog id="confirmDialog" aria-labelledby="dialog-title" aria-describedby="dialog-desc">
+    <div class="dialog-header">
+      <h3 id="dialog-title">Confirmer l'envoi ?</h3>
+    </div>
+    <div class="dialog-body">
+      <p id="dialog-desc">Vous ne pourrez plus modifier votre candidature une fois envoyée. Vérifiez que vos informations sont correctes.</p>
+      <div class="dialog-summary" id="dialogSummary"></div>
+    </div>
+    <div class="dialog-actions">
+      <button class="ctaBtn primary" id="confirmSend">Confirmer et envoyer</button>
+      <button class="ctaBtn ghost" id="cancelSend">Modifier</button>
+    </div>
+  </dialog>
+
+  <script>
+    /* ═══════════════════════════════════════════════════════════════
+       FORM HANDLER — WCAG 2.2 / EN 301 549 / EAA Compliant
+       Features: Auto-save, confirmation dialog, profile strength,
+       RGPD consent, keyboard navigation, focus management
+       ═══════════════════════════════════════════════════════════════ */
+
+    const form        = document.getElementById('candidateForm');
+    const submitBtn   = document.getElementById('submitBtn');
+    const resetBtn    = document.getElementById('resetBtn');
+    const feedback    = document.getElementById('feedback');
+    const formSection = document.getElementById('formSection');
+    const thanksSec   = document.getElementById('thanksSection');
+    const progressFill = document.getElementById('progressFill');
+    const progressPct  = document.getElementById('progressPct');
+    const progressBar  = document.getElementById('progressBar');
+    const confirmDialog = document.getElementById('confirmDialog');
+    const confirmSendBtn = document.getElementById('confirmSend');
+    const cancelSendBtn = document.getElementById('cancelSend');
+    const autosaveIndicator = document.getElementById('autosaveIndicator');
+    const profileStrength = document.getElementById('profileStrength');
+    const strengthFill = document.getElementById('strengthFill');
+    const strengthLabel = document.getElementById('strengthLabel');
+
+    const FIELDS = ['firstName','lastName','birthDate','city','gsm','email','education','status','currentStatus','availability','incomeTarget'];
+    const RADIOS  = ['resilience','ambition','coldCalling','independence','commercialExp','network','mainBlocker'];
+    const TOTAL   = FIELDS.length + RADIOS.length;
+
+    // Auto-save
+    const AUTOSAVE_KEY = 'byax-form-draft';
+    const AUTOSAVE_INTERVAL = 10000;
+    let autosaveTimer = null;
+    let pendingPayload = null;
+
+    /* ── AUTO-SAVE ─────────────────────────────────────── */
+    function saveDraft() {
+      const draft = {};
+      FIELDS.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) draft[id] = el.value;
+      });
+      RADIOS.forEach(name => {
+        const checked = form.querySelector(`input[name="${name}"]:checked`);
+        draft[name] = checked ? checked.value : '';
+      });
+      draft.consent = document.getElementById('consent')?.checked || false;
+      localStorage.setItem(AUTOSAVE_KEY, JSON.stringify(draft));
+
+      autosaveIndicator.classList.add('visible');
+      setTimeout(() => autosaveIndicator.classList.remove('visible'), 2000);
+    }
+
+    function restoreDraft() {
+      const saved = localStorage.getItem(AUTOSAVE_KEY);
+      if (!saved) return;
+      try {
+        const draft = JSON.parse(saved);
+        FIELDS.forEach(id => {
+          const el = document.getElementById(id);
+          if (el && draft[id]) el.value = draft[id];
+        });
+        RADIOS.forEach(name => {
+          if (draft[name]) {
+            const opt = document.querySelector(`.opt[data-group="${name}"][data-value="${draft[name]}"]`);
+            if (opt) {
+              document.querySelectorAll(`.opt[data-group="${name}"]`).forEach(o => o.classList.remove('selected'));
+              opt.classList.add('selected');
+              opt.querySelector('input').checked = true;
+            }
+          }
+        });
+        if (draft.consent) {
+          const consentBox = document.getElementById('consent');
+          if (consentBox) consentBox.checked = true;
+        }
+        updateProgress();
+        updateProfileStrength();
+      } catch(e) { console.error('Restore draft failed', e); }
+    }
+
+    function clearDraft() {
+      localStorage.removeItem(AUTOSAVE_KEY);
+    }
+
+    function scheduleAutosave() {
+      if (autosaveTimer) clearTimeout(autosaveTimer);
+      autosaveTimer = setTimeout(saveDraft, AUTOSAVE_INTERVAL);
+    }
+
+    /* ── PROFILE STRENGTH ──────────────────────────────── */
+    function calculateProfileStrength() {
+      let score = 0;
+      const maxScore = 100;
+
+      // Education (CESS or higher = +20)
+      const edu = document.getElementById('education')?.value;
+      if (edu === 'CESS' || edu === 'Bachelier ou plus') score += 20;
+      else if (edu === 'Inférieur au CESS') score += 5;
+
+      // Motivation (commission = +20)
+      const status = document.getElementById('status')?.value;
+      if (status === 'Je suis motivé(e) par la commission') score += 20;
+      else score += 5;
+
+      // Resilience (constance = +15)
+      const resilience = getRadio('resilience');
+      if (resilience === 'Je continue avec constance') score += 15;
+      else if (resilience === 'Je fais une pause et j'analyse') score += 10;
+      else if (resilience) score += 3;
+
+      // Cold calling (comfort = +10)
+      const cold = getRadio('coldCalling');
+      if (cold === 'Très à l'aise') score += 10;
+      else if (cold === 'Un peu, sans affinité particulière') score += 5;
+      else if (cold) score += 2;
+
+      // Ambition (growth = +15)
+      const ambition = getRadio('ambition');
+      if (ambition === 'Évoluer vers un rôle d'encadrement') score += 15;
+      else if (ambition === 'Vise une forte performance commerciale') score += 12;
+      else if (ambition) score += 5;
+
+      // Independence (+10)
+      const ind = getRadio('independence');
+      if (ind === 'Oui, encore aujourd'hui') score += 10;
+      else if (ind === 'Oui, dans le passé') score += 7;
+      else if (ind) score += 3;
+
+      // Commercial experience (+10)
+      const comm = getRadio('commercialExp');
+      if (comm === 'Oui, c'est mon cœur de métier') score += 10;
+      else if (comm === 'Oui, occasionnellement') score += 5;
+      else if (comm) score += 2;
+
+      // Availability (+10)
+      const avail = document.getElementById('availability')?.value;
+      if (avail === 'Plus de 25h (quasi temps plein)') score += 10;
+      else if (avail === '15 à 25h par semaine') score += 7;
+      else if (avail === '5 à 15h par semaine') score += 4;
+      else if (avail) score += 1;
+
+      // Income target alignment (+10)
+      const income = document.getElementById('incomeTarget')?.value;
+      if (income === 'Plus de 1 500 € / mois (objectif principal)') score += 10;
+      else if (income === '700 à 1 500 € / mois') score += 6;
+      else if (income === '300 à 700 € / mois') score += 3;
+      else if (income) score += 1;
+
+      return Math.min(score, maxScore);
+    }
+
+    function updateProfileStrength() {
+      const filled = countFilled();
+      if (filled < 5) {
+        profileStrength.classList.add('hidden');
+        return;
+      }
+
+      profileStrength.classList.remove('hidden');
+      const score = calculateProfileStrength();
+      strengthFill.style.width = score + '%';
+
+      strengthFill.className = 'strength-fill';
+      if (score < 40) {
+        strengthFill.classList.add('strength-weak');
+        strengthLabel.textContent = 'Profil en développement (' + score + '%)';
+      } else if (score < 70) {
+        strengthFill.classList.add('strength-medium');
+        strengthLabel.textContent = 'Bon potentiel (' + score + '%)';
+      } else {
+        strengthFill.classList.add('strength-strong');
+        strengthLabel.textContent = 'Excellent alignement (' + score + '%)';
+      }
+    }
+
+    /* ── CUSTOM RADIO BEHAVIOUR ────────────────────────── */
+    document.querySelectorAll('.opt').forEach(opt => {
+      opt.addEventListener('click', () => {
+        const group = opt.dataset.group;
+        if (!group) return;
+        const value = opt.dataset.value;
+        document.querySelectorAll(`.opt[data-group="${group}"]`).forEach(o => o.classList.remove('selected'));
+        opt.classList.add('selected');
+        const input = opt.querySelector('input');
+        if (input) input.checked = true;
+        document.getElementById(`group-${group}`)?.classList.remove('invalid-group');
+        const errId = `error-${group}`;
+        const errEl = document.getElementById(errId);
+        if (errEl) errEl.classList.remove('visible');
+        FIELDS.forEach(validateField);
+        updateProgress();
+        updateProfileStrength();
+        scheduleAutosave();
+      });
+
+      opt.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          opt.click();
+        }
+      });
+      opt.setAttribute('tabindex', '0');
+      opt.setAttribute('role', 'radio');
+    });
+
+    /* ── CONSENT CHECKBOX ──────────────────────────────── */
+    const consentBox = document.getElementById('consent');
+    if (consentBox) {
+      consentBox.addEventListener('change', () => {
+        const label = document.getElementById('consentLabel');
+        if (label) {
+          if (consentBox.checked) label.classList.add('selected');
+          else label.classList.remove('selected');
+        }
+        const err = document.getElementById('error-consent');
+        if (err) err.style.display = 'none';
+        scheduleAutosave();
+      });
+    }
+
+    /* ── PROGRESS ──────────────────────────────────────── */
+    function countFilled() {
+      let n = FIELDS.filter(id => document.getElementById(id)?.value.trim()).length;
+      n += RADIOS.filter(name => form.querySelector(`input[name="${name}"]:checked`)).length;
+      if (consentBox?.checked) n += 1;
+      return n;
+    }
+
+    function updateProgress() {
+      const totalWithConsent = TOTAL + 1;
+      const pct = Math.round((countFilled() / totalWithConsent) * 100);
+      progressFill.style.width = pct + '%';
+      progressPct.textContent = pct + ' %';
+      progressBar.setAttribute('aria-valuenow', pct);
+    }
+
+    /* ── LIVE VALIDATION ───────────────────────────────── */
+    function validateField(id) {
+      const el = document.getElementById(id);
+      if (!el) return false;
+      let ok = el.value.trim() !== '';
+      if (ok && id === 'email') ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value.trim());
+      if (ok && id === 'gsm')   ok = /^[\d\s\+\-\(\)]{7,20}$/.test(el.value.trim());
+      if (ok && id === 'birthDate') {
+        const d = new Date(el.value);
+        ok = !isNaN(d.getTime());
+        if (ok) {
+          const today = new Date();
+          let age = today.getFullYear() - d.getFullYear();
+          const m = today.getMonth() - d.getMonth();
+          if (m < 0 || (m === 0 && today.getDate() < d.getDate())) age--;
+          ok = age >= 16 && age <= 75;
+        }
+      }
+
+      el.classList.toggle('valid',   ok);
+      el.classList.toggle('invalid', !ok && el.dataset.touched === '1');
+
+      const errEl = document.getElementById(`error-${id}`);
+      if (errEl) {
+        errEl.classList.toggle('visible', !ok && el.dataset.touched === '1');
+      }
+
+      return ok;
+    }
+
+    FIELDS.forEach(id => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener('input', () => { el.dataset.touched = '1'; validateField(id); updateProgress(); updateProfileStrength(); scheduleAutosave(); });
+      el.addEventListener('blur',  () => { el.dataset.touched = '1'; validateField(id); });
+      el.addEventListener('change',() => { el.dataset.touched = '1'; validateField(id); updateProgress(); updateProfileStrength(); scheduleAutosave(); });
+    });
+
+    /* ── RADIO VAL HELPER ──────────────────────────────── */
+    const getRadio = name => form.querySelector(`input[name="${name}"]:checked`)?.value || '';
+
+    /* ── IS COMPLETE ───────────────────────────────────── */
+    function isComplete() {
+      const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(document.getElementById('email')?.value.trim());
+      const gsmOk   = /^[\d\s\+\-\(\)]{7,20}$/.test(document.getElementById('gsm')?.value.trim());
+      const consentOk = document.getElementById('consent')?.checked || false;
+      return FIELDS.every(id => document.getElementById(id)?.value.trim()) &&
+             emailOk && gsmOk &&
+             RADIOS.every(n => getRadio(n)) &&
+             consentOk;
+    }
+
+    /* ── MSG HELPER ────────────────────────────────────── */
+    function msg(text, cls = '') {
+      feedback.className = `feedback ${cls}`;
+      feedback.textContent = text;
+    }
+
+    /* ── RESET ─────────────────────────────────────────── */
+    resetBtn.addEventListener('click', () => {
+      form.reset();
+      document.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
+      document.querySelectorAll('.invalid-group').forEach(g => g.classList.remove('invalid-group'));
+      FIELDS.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) { el.classList.remove('valid','invalid'); delete el.dataset.touched; }
+      });
+      document.querySelectorAll('.field-error').forEach(e => e.classList.remove('visible'));
+      const consentErr = document.getElementById('error-consent');
+      if (consentErr) consentErr.style.display = 'none';
+      msg('');
+      updateProgress();
+      updateProfileStrength();
+      clearDraft();
+    });
+
+    /* ── CONFIRMATION DIALOG ───────────────────────────── */
+    function buildDialogSummary() {
+      const summary = [];
+      summary.push(`<strong>${document.getElementById('firstName').value} ${document.getElementById('lastName').value}</strong>`);
+      summary.push(`Ville : ${document.getElementById('city').value}`);
+      summary.push(`Email : ${document.getElementById('email').value}`);
+      summary.push(`GSM : ${document.getElementById('gsm').value}`);
+      summary.push(`Diplôme : ${document.getElementById('education').value}`);
+      summary.push(`Motivation : ${document.getElementById('status').value}`);
+      return summary.join('<br>');
+    }
+
+    confirmSendBtn.addEventListener('click', async () => {
+      confirmDialog.close();
+      await doSubmit();
+    });
+
+    cancelSendBtn.addEventListener('click', () => {
+      confirmDialog.close();
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = 'Envoyer ma candidature';
+    });
+
+    confirmDialog.addEventListener('cancel', () => {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = 'Envoyer ma candidature';
+    });
+
+    /* ── SUBMIT ────────────────────────────────────────── */
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      msg('');
+
+      FIELDS.forEach(id => { const el = document.getElementById(id); if (el) el.dataset.touched = '1'; validateField(id); });
+
+      if (!isComplete()) {
+        RADIOS.forEach(name => {
+          if (!getRadio(name)) document.getElementById(`group-${name}`)?.classList.add('invalid-group');
+        });
+        if (!document.getElementById('consent')?.checked) {
+          const consentErr = document.getElementById('error-consent');
+          if (consentErr) consentErr.style.display = 'block';
+        }
+        msg('Prends une minute pour compléter tous les champs.', 'error');
+        const firstInvalid = form.querySelector('.invalid');
+        if (firstInvalid) firstInvalid.focus();
+        return;
+      }
+
+      // Show confirmation dialog
+      document.getElementById('dialogSummary').innerHTML = buildDialogSummary();
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="spinner"></span>Vérification…';
+      confirmDialog.showModal();
+    });
+
+    async function doSubmit() {
+      const payload = {
+        firstName:      document.getElementById('firstName').value.trim(),
+        lastName:       document.getElementById('lastName').value.trim(),
+        birthDate:      document.getElementById('birthDate').value,
+        city:           document.getElementById('city').value.trim(),
+        gsm:            document.getElementById('gsm').value.trim(),
+        email:          document.getElementById('email').value.trim(),
+        education:      document.getElementById('education').value,
+        status:         document.getElementById('status').value,
+        currentStatus:  document.getElementById('currentStatus').value,
+        availability:   document.getElementById('availability').value,
+        incomeTarget:   document.getElementById('incomeTarget').value,
+        resilience:     getRadio('resilience'),
+        ambition:       getRadio('ambition'),
+        coldCalling:    getRadio('coldCalling'),
+        independence:   getRadio('independence'),
+        commercialExp:  getRadio('commercialExp'),
+        network:        getRadio('network'),
+        mainBlocker:    getRadio('mainBlocker'),
+      };
+
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="spinner"></span>Analyse en cours…';
+
+      try {
+        const res  = await fetch('/.netlify/functions/process', {
+          method:  'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body:    JSON.stringify(payload),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(data.error || 'Une erreur est survenue lors de l\'envoi.');
+        formSection.classList.add('hidden');
+        thanksSec.classList.remove('hidden');
+        thanksSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        thanksSec.setAttribute('tabindex', '-1');
+        thanksSec.focus();
+        clearDraft();
+      } catch (err) {
+        msg(err.message || 'Impossible d\'envoyer la candidature. Réessaie dans un instant.', 'error');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = 'Envoyer ma candidature';
+      }
+    }
+
+    /* ── INIT ──────────────────────────────────────────── */
+    restoreDraft();
+    updateProgress();
+    updateProfileStrength();
+  </script>
+</body>
+</html>
